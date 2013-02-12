@@ -1,10 +1,10 @@
 <?php
-try {
+//try {
   $dbh = new PDO('odbc:sample_optim_web1', '', '');
   echo "Connected\n";
 } catch (Exception $e) {
   echo "Failed: " . $e->getMessage();
-}
+}//
 /*$dsn='OPTIM_SAMPLE1';
 
 $connection= odbc_connect($dsn,'','',1);
